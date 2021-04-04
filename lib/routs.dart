@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thriftshop/screens/details/details.screen.dart';
 import 'package:thriftshop/screens/forgot_password/forgot_password_screen.dart';
 import 'package:thriftshop/screens/home/home_screen.dart';
 import 'package:thriftshop/screens/login_success/login_success_screen.dart';
@@ -18,4 +19,5 @@ final Map<String, WidgetBuilder> routes = {
   SignUpScreen.routeName: (context) => SignUpScreen(),
   CompleteProfileScreen.routeName: (context) => CompleteProfileScreen(),
   HomeScreen.routeName: (context) => HomeScreen(),
+  DetailsScreen.routeName: (context) => DetailsScreen(),
 };
