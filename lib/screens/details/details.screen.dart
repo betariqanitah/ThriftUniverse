@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:thriftshop/models/product.dart';
+import 'package:thriftshop/screens/cart/cart_screen.dart';
 import 'package:thriftshop/screens/details/components/body.dart';
 
 import '../../constants.dart';
@@ -34,7 +35,7 @@ class DetailsScreen extends StatelessWidget {
       actions: <Widget>[
         IconButton(
           icon: SvgPicture.asset("assets/icons/cart.svg", color: kPrimaryColor,),
-          onPressed: () {},
+          onPressed: () => Navigator.pushNamed(context, CartScreen.routeName),
         ),
         SizedBox(width: kDefaultPaddin / 2)
       ],

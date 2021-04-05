@@ -4,14 +4,15 @@ class Product {
   final String image, title, size, description;
   final int price, id;
   final Color color;
+
   Product({
-    this.id,
-    this.image,
-    this.title,
-    this.price,
-    this.description,
-    this.size,
-    this.color,
+    @required this.id,
+    @required this.image,
+    @required this.title,
+    @required this.price,
+    @required this.description,
+    @required this.size,
+   @required  this.color,
   });
 }
 

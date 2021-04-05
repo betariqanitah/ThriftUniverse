@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:thriftshop/constants.dart';
 import 'package:thriftshop/models/product.dart';
 import 'package:thriftshop/screens/details/details.screen.dart';
-
-import '../../../size_config.dart';
+import 'package:thriftshop/screens/home/components/home_header.dart';
 import 'item_card.dart';
 
 class Body extends StatelessWidget {
@@ -15,7 +14,8 @@ class Body extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
         ),
-        SizedBox(height: getProportionateScreenHeight(30)),
+        HomeHeader(),
+        // SizedBox(height: getProportionateScreenHeight(20)),
         Expanded(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
