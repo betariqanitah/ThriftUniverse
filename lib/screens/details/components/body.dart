@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:thriftshop/models/product.dart';
 import 'package:thriftshop/screens/details/components/add_to_cart.dart';
-import 'package:thriftshop/screens/details/components/cart_counter.dart';
 import 'package:thriftshop/screens/details/components/color_and_size.dart';
 import 'package:thriftshop/screens/details/components/description.dart';
 import 'package:thriftshop/screens/details/components/product_title_with_image.dart';

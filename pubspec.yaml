@@ -56,6 +56,9 @@ flutter:
     - assets/images/hushed-green.jpeg
     - assets/images/green.jpeg
     - assets/images/mustard.jpeg
+    - assets/icons/Trash.svg
+    - assets/icons/receipt.svg
+    - assets/images/
     - assets/icons/
   #   - images/a_dot_ham.jpeg
 
