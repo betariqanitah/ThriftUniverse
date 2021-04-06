@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'package:flutter/widgets.dart';
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
 import 'package:thriftshop/screens/cart/cart_screen.dart';
 import 'package:thriftshop/screens/details/details.screen.dart';
 import 'package:thriftshop/screens/edit_profile/edit_profile_screen.dart';
@@ -24,6 +28,9 @@ final Map<String, WidgetBuilder> routes = {
   HomeScreen.routeName: (context) => HomeScreen(),
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
+<<<<<<< HEAD
   ProfileScreen.routeName: (context) => ProfileScreen(),
   EditProfileScreen.routeName: (context) => EditProfileScreen(),
+=======
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
 };

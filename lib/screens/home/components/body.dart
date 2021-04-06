@@ -3,8 +3,11 @@ import 'package:thriftshop/constants.dart';
 import 'package:thriftshop/models/product.dart';
 import 'package:thriftshop/screens/details/details.screen.dart';
 import 'package:thriftshop/screens/home/components/home_header.dart';
+<<<<<<< HEAD
 
 import '../../../size_config.dart';
+=======
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
 import 'item_card.dart';
 
 class Body extends StatelessWidget {
@@ -17,7 +20,11 @@ class Body extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
         ),
         HomeHeader(),
+<<<<<<< HEAD
         //SizedBox(height: getProportionateScreenHeight(30)),
+=======
+        // SizedBox(height: getProportionateScreenHeight(20)),
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
         Expanded(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),

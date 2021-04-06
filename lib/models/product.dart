@@ -12,7 +12,11 @@ class Product {
     @required this.price,
     @required this.description,
     @required this.size,
+<<<<<<< HEAD
     @required  this.color,
+=======
+   @required  this.color,
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
   });
 }
 

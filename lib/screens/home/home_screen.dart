@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:thriftshop/screens/cart/cart_screen.dart';
 import 'package:thriftshop/screens/home/components/body.dart';
 
 import '../../constants.dart';
@@ -9,7 +10,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       //appBar: buildAppBar(),
+=======
+      // appBar: buildAppBar(),
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
       body: Body(),
     );
   }

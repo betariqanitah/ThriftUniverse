@@ -6,7 +6,10 @@ import 'package:flutter_svg/svg.dart';
 import 'package:thriftshop/screens/cart/cart_screen.dart';
 import 'package:thriftshop/screens/home/components/body.dart';
 import 'package:thriftshop/constants.dart';
+<<<<<<< HEAD
 import 'package:thriftshop/screens/profile/profile_screen.dart';
+=======
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
 
 import '../../../size_config.dart';
 import 'icon_btn_with_counter.dart';
@@ -20,7 +23,11 @@ class HomeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
      padding: EdgeInsets.symmetric(
         vertical: getProportionateScreenHeight(30),
         horizontal: getProportionateScreenWidth(20),
@@ -48,13 +55,25 @@ class HomeHeader extends StatelessWidget {
           ),
           IconBtnWithCounter(
             svgSrc: "assets/icons/user2.svg",
+<<<<<<< HEAD
             press: () => Navigator.pushNamed(context, ProfileScreen.routeName),
           ),
 
            SizedBox(width: kDefaultPaddin / 2)
 
+=======
+            press: () {},
+          ),
+          
+           SizedBox(width: kDefaultPaddin / 2)
+           
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
         ],
       ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
