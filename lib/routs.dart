@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-=======
 import 'package:flutter/widgets.dart';
->>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
+import 'package:thriftshop/screens/address/create_address.dart';
 import 'package:thriftshop/screens/cart/cart_screen.dart';
+import 'package:thriftshop/screens/checkout/checkout_screen.dart';
 import 'package:thriftshop/screens/details/details.screen.dart';
 import 'package:thriftshop/screens/edit_profile/edit_profile_screen.dart';
 import 'package:thriftshop/screens/forgot_password/forgot_password_screen.dart';
 import 'package:thriftshop/screens/home/home_screen.dart';
 import 'package:thriftshop/screens/login_success/login_success_screen.dart';
+import 'package:thriftshop/screens/payment_success/payment_success.dart';
 import 'package:thriftshop/screens/profile/profile_screen.dart';
 import 'package:thriftshop/screens/sign_in/sign_in_screen.dart';
 import 'package:thriftshop/screens/sign_up/sign_up_screen.dart';
@@ -28,9 +28,9 @@ final Map<String, WidgetBuilder> routes = {
   HomeScreen.routeName: (context) => HomeScreen(),
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
-<<<<<<< HEAD
   ProfileScreen.routeName: (context) => ProfileScreen(),
   EditProfileScreen.routeName: (context) => EditProfileScreen(),
-=======
->>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
+  CreateAddress.routeName: (context) => CreateAddress(),
+  CheckOutScreen.routeName: (context) => CheckOutScreen(),
+  PaymentSuccessScreen.routeName: (context) => PaymentSuccessScreen(),
 };

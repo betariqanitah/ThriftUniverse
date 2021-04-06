@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:thriftshop/constants.dart';
 import 'package:thriftshop/screens/cart/components/body.dart';
 import 'package:thriftshop/screens/cart/components/check_out_card.dart';
 
@@ -16,50 +17,21 @@ class CartScreen extends StatelessWidget {
 
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
+      elevation: 0,
+      leading: IconButton(
+        icon: SvgPicture.asset(
+          'assets/icons/back.svg',
+          color: kPrimaryColor,
+        ),
+        onPressed: () => Navigator.pop(context),
+      ),
       title: Column(
-        children: [Text("Your Cart",
+        children: [
+          Text("Your Cart",
          style: TextStyle(color: Colors.black),
          ),
-        //  Text(
-        //    "${demoCarts.length} Items",
-        //    style: Theme.of(context).textTheme.caption,
-        //  )
         ],
       ),
     );
   }
 }
-=======
-import 'package:flutter/material.dart';
-
-import 'package:thriftshop/screens/cart/components/body.dart';
-import 'package:thriftshop/screens/cart/components/check_out_card.dart';
-
-class CartScreen extends StatelessWidget {
-  static String routeName = "/cart";
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: buildAppBar(context),
-      body: Body(),
-      bottomNavigationBar: CheckOutCard(),
-    );
-  }
-
-  AppBar buildAppBar(BuildContext context) {
-    return AppBar(
-      title: Column(
-        children: [Text("Your Cart",
-         style: TextStyle(color: Colors.black),
-         ),
-        //  Text(
-        //    "${demoCarts.length} Items",
-        //    style: Theme.of(context).textTheme.caption,
-        //  )
-        ],
-      ),
-    );
-  }
-}
-
->>>>>>> 74ff954c3b64d2c5536020d336a6749e54ff07d0
